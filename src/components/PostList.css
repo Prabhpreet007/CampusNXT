@@ -1,0 +1,91 @@
+/* Container for the entire post list */
+.post-list-container {
+    margin: 20px;
+    
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* List styling */
+  .post-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Each post card */
+  .post-card {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Flexbox for image and details */
+  .post-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  /* Image styling */
+  .post-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  /* Post details (title, description, etc.) */
+  .post-details {
+    flex: 1;
+  }
+  
+  .post-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .post-description,
+  .post-requirements,
+  .post-date {
+    margin: 5px 0;
+  }
+  
+  /* Action buttons (3 dots and delete) */
+  .post-actions {
+    position: relative;
+  }
+  
+  .dots-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
